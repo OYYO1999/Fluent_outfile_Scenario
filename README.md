@@ -19,9 +19,10 @@ Copying 2_Add_suffix.bat to Workdic->Running it.
 
 ## Step2
 Copying 3_Rename.bat to Workdic->Running it.  
- <div align=center><img width="1080" alt="image" src="https://github.com/OYYO1999/Fluent_outfile_Scenario/blob/main/fig/Step5.jpg"></div>
 Entering file suffix:txt  
 After entering filename you want to define. such as this:
  <div align=center><img width="1080" alt="image" src="https://github.com/OYYO1999/Fluent_outfile_Scenario/blob/main/fig/Step4.jpg"></div>
+ Finally, enjoying it!
+  <div align=center><img width="1080" alt="image" src="https://github.com/OYYO1999/Fluent_outfile_Scenario/blob/main/fig/Step5.jpg"></div>
 
 
