@@ -1,0 +1,38 @@
+@ECHO OFF
+SETLOCAL ENABLEDELAYEDEXPANSION
+COLOR 0A
+
+ECHO.
+ECHO =================================
+ECHO Sort...
+ECHO =================================
+for /f "tokens=*" %%i in ('dir/b/a-d ') do (
+set /a cnt+=1
+set fn=00!cnt!_!
+ren "%%i" "!fn:~-3!%%i")
+ECHO.
+ECHO =================================
+ECHO Add .suffix...
+ECHO =================================
+ren  *.* *.txt
+
+rem "You should separate them to two"
+
+
+SET /P suffix="Please enter .suffix: "
+)
+ECHO.
+SET /p prefix="Please enter filename you want: "
+ECHO.
+ECHO =================================
+ECHO Fixing...
+ECHO =================================
+ECHO.
+SET /a index=0
+FOR %%i in (*.!suffix!) do (
+    SET /a index=!index!+1
+    SET name=!prefix!!index!.!suffix!
+    REN "%%i" !name!
+)
+ECHO.
+PAUSE
